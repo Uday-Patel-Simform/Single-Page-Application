@@ -249,6 +249,9 @@ font-family: 'Ubuntu Mono', monospace; */
   .home-title{
     font-size: 40px;
   }
+  .home-scroll-button{
+    width: 30%;
+  }
   .home-bottom,
   .about-title,
   .about-bottom,
@@ -271,7 +274,16 @@ font-family: 'Ubuntu Mono', monospace; */
 }
 
 /* mobile small */
-@media (max-width: 360px) {
+@media (max-width: 385px) {
+  .navbar {
+    width: 95% !important;
+  }
+  .navbar-brand{
+    font-size: 25px !important;
+  }
+  .home-scroll-button{
+    width: 50%;
+  }
   .slider{
     height: 10rem;
   }
